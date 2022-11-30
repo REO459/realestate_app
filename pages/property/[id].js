@@ -43,10 +43,10 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
                     <Text fontWeight='bold'>{purpose}</Text>
                 </Flex>
                 {funishingStatus && (
-                  <Flex justifyContent='space-between' w='400px' borderBottom='1px' borderColor='gray.100' p='3'>
-                    <Text>Furnishing Status</Text>
-                    <Text fontWeight='bold'>{funishingStatus}</Text>
-                  </Flex>  
+                    <Flex justifyContent='space-between' w='400px' borderBottom='1px' borderColor='gray.100' p='3'>
+                        <Text>Furnishing Status</Text>
+                        <Text fontWeight='bold'>{funishingStatus}</Text>
+                    </Flex>
                 )}
             </Flex>
             <Box>
@@ -54,7 +54,7 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
                 <Flex flexWrap='wrap'>
                     {amenities.map((item) => (
                         item.amenities.map((amenity) => (
-                            <Text 
+                            <Text
                                 fontWeight='bold'
                                 color='blue.400'
                                 fontSize='l'
