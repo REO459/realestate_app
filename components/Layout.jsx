@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 
 
-const Layout = ({children}) => (
+const Layout = ({ children }) => (
     <>
         <Head>
             <title>Real Estate</title>
